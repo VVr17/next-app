@@ -1,16 +1,12 @@
-import { List, ListItem, Typography } from '@mui/material';
+import Section from '@/components/Section/Section';
+import { Typography } from '@mui/material';
 
 export default function Home() {
   return (
-    <>
-      <Typography variant="h1">home page</Typography>
-
-      <List>
-        <ListItem>Item 1 </ListItem>
-        <ListItem>Item 1 </ListItem>
-        <ListItem>Item 1 </ListItem>
-        <ListItem>Item 1 </ListItem>
-      </List>
-    </>
+    <Section>
+      <Typography variant="h2" fontWeight={600}>
+        Home page
+      </Typography>
+    </Section>
   );
 }
